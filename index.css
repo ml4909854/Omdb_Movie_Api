@@ -1,0 +1,42 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+#navbar {
+
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 0px;
+    border-collapse: collapse;
+    gap: 2px;
+    background-image: linear-gradient(teal, rgb(154, 77, 90));
+}
+
+
+#container {
+
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+}
+
+#container>div {
+    text-align: center;
+}
+
+#container>div>img {
+    width: 80%;
+    height: 55%;
+}
